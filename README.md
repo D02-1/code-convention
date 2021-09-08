@@ -250,6 +250,19 @@ Wenn du mehrere Funktionen/Methoden auf einen Wert anwendest, trennst du sie bei
     .methode1();
 ```
 
+Andere arten von schlagen, wie zum beispiel den ternary operator, schreiben wir in eine zeile, solange er nicht zu lang wird.
+```js
+// Falsch:
+const ternaryCheck =
+testBool ? 
+'(Boolean) Dies ist wahr' // IF 
+: 
+'(Boolean) Dies ist falsch'; // ELSE
+
+// Richtig:
+const ternaryCheck = testBool ? '(Boolean) Dies ist wahr' : '(Boolean) Dies ist falsch';
+```
+
 ### 1.10. Konsole
 
 ([Zurück zum Anfang](#-inhalt))
