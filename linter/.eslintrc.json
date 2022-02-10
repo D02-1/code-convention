@@ -11,7 +11,7 @@
         "quotes": ["error", "single"],
         "no-var": ["error" ],
         "no-use-before-define": [ "error" ],
-        "no-unused-vars": [ "error" ],
+        "no-unused-vars": [ "warn" ],
         "array-bracket-newline": [ "error", { "multiline": true } ],
         "computed-property-spacing": ["error", "always"],
         "object-curly-spacing": ["error", "always"],
